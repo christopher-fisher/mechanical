@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\def\code#1{\texttt{#1}}
+
+\title{Mechanical Roadmap v1.0}
+\author{Chris Fisher
+\\https://github.com/christopher-fisher/mechanical}
+\date{September 30 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{What is Mechanical?}
+Mechanical is a toolkit for the rapid prototyping of common types of generative machine learning projects. It is not intended to replace the full TensorFlow library, but rather to serve as a more approachable entry point to the sorts of projects that are possible with TensorFlow.
+
+%\section{Philosophy}
+
+\section{Goals}
+\begin{itemize}
+    \item Make machine learning projects more approachable
+    \item Create a simple yet highly configurable tool for rapid prototyping of machine learning projects
+    \item Learn more about TensorFlow in the process of building the Mechanical toolkit
+\end{itemize}
+\subsection{Long Term Goals}
+\begin{itemize}
+    \item Eventually implement a web front end using Flask and React in order to better learn those frameworks
+\end{itemize}
+
+\section{Development Milestones}
+\subsection{v0.1: Text Generation}
+Projected release: October 10 2020
+\begin{itemize}
+    \item Implement and adapt the text generation model I implemented in my project Pynk Floyd
+    \item All functionality and model parameters adjusted via \code{textgen\_config.py}
+    \item Currently the toolkit is utilized by importing it into a separate script file. This will be a temporary measure until a CLI is implemented for v0.2
+\end{itemize}
+\subsection{v0.2: Command Line Interface}
+Projected release: TBD following release of v0.1
+\begin{itemize}
+    \item Implement command line interface for toolkit
+    \item Allow for user-provided custom configuration files
+\end{itemize}
+\subsection{More features TBD}
+\end{document}
